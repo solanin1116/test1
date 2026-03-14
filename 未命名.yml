@@ -1,0 +1,19 @@
+name: 放大器数字建模盲听测试
+welcome:
+  description: |
+    欢迎参与本次听音测试。
+    请仔细对比真实的电子管模拟电路与数字建模在触弦动态、边缘泛音以及底噪上的细微差别。
+    测试界面提供进度条和波形显示，你可以自由拖拽并设置循环点（Loop）来反复监听特定瞬态。
+options:
+  - name: Sample A
+    audioUrl: https://www.dropbox.com/scl/fi/j6snyq79kqnoyvur3nav0/Sample-A.wav?rlkey=g8afn2kt9nbrh82vbqvng0ph4&dl=0
+  - name: Sample B
+    audioUrl: https://www.dropbox.com/scl/fi/ijx9smct0uqfm45i9sgoq/Sample-B.wav?rlkey=qpeyimxzb1hnwhp0ndukzrn5x&dl=0
+tests:
+  - name: 核心音色 ABX 辨别
+    testType: ABX
+    description: "找出与 X 完全相同的原始参考音轨"
+    options:
+      - 真实模拟硬件
+      - 数字建模
+    repeat: 10 # 设置重复次数，以此确保统计学上 p-value 结果的有效性
