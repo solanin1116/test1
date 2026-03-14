@@ -1,0 +1,57 @@
+name: 论数字建模技术对电声乐器录音流程的影响 - 盲听实验
+welcome:
+  description: |
+    欢迎参与本次听觉感知实验。
+    本次实验分为三个连续的阶段，将分别从不同的信号层级（前级、后级与负载、完整链路）对比数字建模技术与真实物理设备的听感差异。
+    请佩戴专业监听耳机，在安静环境下进行。
+    注意：为保证实验的客观性，测试中途不会显示正确率，所有阶段全部完成后才会统一显示最终结果。
+    你可以利用界面下方的波形缩放和进度条来反复比对特定瞬态。
+
+# 1. 全局素材库：把整个实验用到的所有音频统一放在这里
+options:
+  # 第一组：前级电路对比音频
+  - name: 真实硬件_前级过载
+    audioUrl: https://www.dropbox.com/scl/fi/n164s8mwnqsrpge3puci2/_-_02.wav?rlkey=at73bfh8v0lo9ecx2lfhm77lo&dl=0
+  - name: 数字建模_前级过载
+    audioUrl: https://www.dropbox.com/scl/fi/rp2i31ycxeg6786q8b136/_-_02.wav?rlkey=ch4zthvoeibhz850timvi2rpn&dl=0
+
+  # 第二组：后级与反应负载盒交互音频
+  - name: 真实硬件_后级与反应负载
+    audioUrl: https://www.dropbox.com/scl/fi/7qsm4pgy8l6h6wpvfifgh/_-_02.wav?rlkey=2prhdwe9lvo4m2cjw0qcoqocf&dl=0
+  - name: 数字建模_后级响应
+    audioUrl: https://www.dropbox.com/scl/fi/jbb7d2izaq7ehy81bijok/_-_02.wav?rlkey=902i5d3cztrwbgk2vvtfs37fr&dl=0
+
+  # 第三组：完整录音链路综合音频
+  - name: 真实硬件_完整链路
+    audioUrl: https://www.dropbox.com/scl/fi/r1kfsii3cv0phk7g6r0bd/_-_03.wav?rlkey=r1iavaxa1zi52u153eix884yp&dl=0
+  - name: 数字建模_完整链路
+    audioUrl: https://www.dropbox.com/scl/fi/sww1beaytq99upriu4qcd/_-_02.wav?rlkey=he4q9rkoolf9wn5pto2dr00tx&dl=0
+
+# 2. 串联测试组：按先后顺序排列不同的测试阶段
+tests:
+  # 第一个测试区块
+  - name: 第一阶段：前级（Preamp）触弦动态辨别
+    testType: ABX
+    description: "找出与 X 完全相同的参考音轨。本组重点关注前级失真产生的瞬态响应与动态边缘。"
+    options:
+      - 真实硬件_前级过载
+      - 数字建模_前级过载
+    repeat: 5 # 第一阶段进行 5 次 ABX 循环
+
+  # 第二个测试区块（第一阶段完成后自动进入此阶段）
+  - name: 第二阶段：后级与负载（Power Amp & Load）响应辨别
+    testType: ABX
+    description: "找出与 X 完全相同的参考音轨。本组重点关注后级电子管饱和度以及连接反应负载盒时的频响特征。"
+    options:
+      - 真实硬件_后级与反应负载
+      - 数字建模_后级响应
+    repeat: 5 # 第二阶段进行 5 次 ABX 循环
+
+  # 第三个测试区块（第二阶段完成后自动进入此阶段）
+  - name: 第三阶段：完整录音流程（Full Rig）综合辨别
+    testType: ABX
+    description: "找出与 X 完全相同的参考音轨。综合评估完整录音链路下的底噪与整体音色。"
+    options:
+      - 真实硬件_完整链路
+      - 数字建模_完整链路
+    repeat: 5 # 第三阶段进行 5 次 ABX 循环
