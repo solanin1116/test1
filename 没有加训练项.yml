@@ -1,0 +1,213 @@
+name: "吉他音箱真实模拟与数字建模对比 ABX 测试"
+welcome:
+  description: |
+    # 欢迎参与听音测试
+    本测试旨在对比真实电吉他音箱与数字建模音箱的声音差异。
+    测试共分为两部分：整体对比与分层对比，总计 18 题。
+    **请务必使用高质量耳机并在安静环境下进行。**
+  form:
+    - name: 您的听音设备类型
+      inputType: select
+      options:
+        - 头戴式耳机 (Over-ear)
+        - 入耳式耳机 (In-ear)
+        - 监听音箱 (Studio Monitors)
+    - name: 您是否有吉他弹奏经验？
+      inputType: select
+      options:
+        - 是
+        - 否
+
+options:
+  # === 整体对比 (Overall) ===
+  - name: Overall_0_RealAmp_CL
+    audioUrl: https://www.dropbox.com/scl/fi/zaxn2s5sv61lwo38oevij/Overall_0_RealAmp_CL.wav?rlkey=8br1i5yilnsxkn9cdlt0qximo&dl=0
+  - name: Overall_0_AM4_CL
+    audioUrl: https://www.dropbox.com/scl/fi/ln8algr6igltosr9tfsei/Overall_0_AM4_CL.wav?rlkey=fpa37t12qqalr4ufxv1u5dnow&dl=0
+  - name: Overall_0_KPA_CL
+    audioUrl: https://www.dropbox.com/scl/fi/58rimu3995odm251p30oi/Overall_0_KPA_CL.wav?rlkey=oaov1pzc5csbfopt2clrbd9f1&dl=0
+  - name: Overall_0_NAM_CL
+    audioUrl: https://www.dropbox.com/scl/fi/s8ofcnwjfjqxi8vfqg8ro/Overall_0_NAM_CL.wav?rlkey=owyn8qd3a9do3pxngfj5vz8y0&dl=0
+  - name: Overall_0_RealAmp_OD
+    audioUrl: https://www.dropbox.com/scl/fi/vuq4q8ihx5dxhxq1i1rm6/Overall_0_RealAmp_OD.wav?rlkey=45ynwypn9vwapyf7b102xua7u&dl=0
+  - name: Overall_0_AM4_OD
+    audioUrl: https://www.dropbox.com/scl/fi/ynkvhkvsyuyyyirfvr0pi/Overall_0_AM4_OD.wav?rlkey=ofrchviicf33s39jwoi2ba0n8&dl=0
+  - name: Overall_0_KPA_OD
+    audioUrl: https://www.dropbox.com/scl/fi/gf8pdkf7o3mkvmx45g0mk/Overall_0_KPA_OD.wav?rlkey=ha2gtvvwrzo4ophmkk0d3i5d1&dl=0
+  - name: Overall_0_NAM_OD
+    audioUrl: https://www.dropbox.com/scl/fi/uue3kipyfxgsdc1r7fojv/Overall_0_NAM_OD.wav?rlkey=8tq623p5daoypz6nnhuh2wkep&dl=0
+  - name: Overall_0_RealAmp_HG
+    audioUrl: https://www.dropbox.com/scl/fi/w6qafv40iqex620c1wtdd/Overall_0_RealAmp_HG.wav?rlkey=wh7s6we42v9y8k53r7o54l6yz&dl=0
+  - name: Overall_0_AM4_HG
+    audioUrl: https://www.dropbox.com/scl/fi/bk6uk2eks1fjg63vltt2v/Overall_0_AM4_HG.wav?rlkey=ltia7kvs7leaege8da0rtms9o&dl=0
+  - name: Overall_0_KPA_HG
+    audioUrl: https://www.dropbox.com/scl/fi/jqy5t11yh0m5kgwpafmmz/Overall_0_KPA_HG.wav?rlkey=cdqw3i7j44bbm2p10bylfoyw3&dl=0
+  - name: Overall_0_NAM_HG
+    audioUrl: https://www.dropbox.com/scl/fi/54vjhba7axsrqsvzee93o/Overall_0_NAM_HG.wav?rlkey=s0ykeofqs8uqi1k0huy142bjq&dl=0
+
+  # === 分层对比 (Layering) ===
+  - name: Layering_Pre_Real_CL
+    audioUrl: https://www.dropbox.com/scl/fi/wswl4vaqu9c7mb4lc0vxb/Layering_Pre_Real_CL.wav?rlkey=3w8nxfqzkuwntpwqq9n6w8i7k&dl=0
+  - name: Layering_Pre_Digi_CL
+    audioUrl: https://www.dropbox.com/scl/fi/cklgctmperwpvizsn1om7/Layering_Pre_Digi_CL.wav?rlkey=0n9cp4g6sutcfhmcpo5mtckj2&dl=0
+  - name: Layering_Pre_Real_OD
+    audioUrl: https://www.dropbox.com/scl/fi/bcd7s5a5cwkphh8kdwzih/Layering_Pre_Real_OD.wav?rlkey=fgl5sh4tpb1srp4a4872gt7av&dl=0
+  - name: Layering_Pre_Digi_OD
+    audioUrl: https://www.dropbox.com/scl/fi/i8w5975u9fnyd8uo0vck3/Layering_Pre_Digi_OD.wav?rlkey=9a3p1van6ac4f6lvm9kella89&dl=0
+  - name: Layering_Pre_Real_HG
+    audioUrl: https://www.dropbox.com/scl/fi/n1qaek5w5kc7gltyddcsj/Layering_Pre_Real_HG.wav?rlkey=uv1487pubt9yhz8w6gfijwrpp&dl=0
+  - name: Layering_Pre_Digi_HG
+    audioUrl: https://www.dropbox.com/scl/fi/u6dnkcfkajllpu7hk2xnf/Layering_Pre_Digi_HG.wav?rlkey=tydtghjdfyvhynzpe869sbkw3&dl=0
+  - name: Layering_P+L_Real_CL
+    audioUrl: https://www.dropbox.com/scl/fi/s0okb162zc1du9jgdu09n/Layering_P-L_Real_CL.wav?rlkey=fhwvq8lnst22jsi1gxlokqtp1&dl=0
+  - name: Layering_P+L_Digi_CL
+    audioUrl: https://www.dropbox.com/scl/fi/dnae2i65en8m64uxyrfav/Layering_P-L_Digi_CL.wav?rlkey=gn5hp9kyw6s6osb2h0sj3z35l&dl=0
+  - name: Layering_P+L_Real_OD
+    audioUrl: https://www.dropbox.com/scl/fi/5tc9zp8eu9lhq3o0s3juy/Layering_P-L_Real_OD.wav?rlkey=vbu4qfb1vcfubwntbsju9kxx0&dl=0
+  - name: Layering_P+L_Digi_OD
+    audioUrl: https://www.dropbox.com/scl/fi/ci1h9eivq0hmztoppq4v1/Layering_P-L_Digi_OD.wav?rlkey=hurzdyincs2nrr66ho7gultgj&dl=0
+  - name: Layering_P+L_Real_HG
+    audioUrl: https://www.dropbox.com/scl/fi/vnru9lxzqeuqsrdejhl7m/Layering_P-L_Real_HG.wav?rlkey=5s45twhp0vpbsepu76zdoy064&dl=0
+  - name: Layering_P+L_Digi_HG
+    audioUrl: https://www.dropbox.com/scl/fi/ymkp7ogk1s7ha0sr1fye2/Layering_P-L_Digi_HG.wav?rlkey=x6lq5wen2mgyb9t4vbzm8cp1n&dl=0
+  - name: Layering_Cab_Real_CL
+    audioUrl: https://www.dropbox.com/scl/fi/tp28n2a8dqh9ltvh7rgl2/Layering_Cab_Real_CL.wav?rlkey=80sfruvm1eo80ygiemfsrxx70&dl=0
+  - name: Layering_Cab_Digi_CL
+    audioUrl: https://www.dropbox.com/scl/fi/qwrzjrtvjqrhmo8y411vt/Layering_Cab_Digi_CL.wav?rlkey=utaf9ml5pmneypxo3jq94ga4m&dl=0
+  - name: Layering_Cab_Real_OD
+    audioUrl: https://www.dropbox.com/scl/fi/19oywqdwm9q1sazp3j5c2/Layering_Cab_Real_OD.wav?rlkey=ltzlxmxgufr3cati670sgeti2&dl=0
+  - name: Layering_Cab_Digi_OD
+    audioUrl: https://www.dropbox.com/scl/fi/8926fcaeiwile8f6haxhu/Layering_Cab_Digi_OD.wav?rlkey=cci21ls86i4wwzny7iey2m7la&dl=0
+  - name: Layering_Cab_Real_HG
+    audioUrl: https://www.dropbox.com/scl/fi/jys4167ukni6yeghp1ifa/Layering_Cab_Real_HG.wav?rlkey=qad3m60oxngnr4eucufx6eu3z&dl=0
+  - name: Layering_Cab_Digi_HG
+    audioUrl: https://www.dropbox.com/scl/fi/0pc82bloappfw8ll8hdm2/Layering_Cab_Digi_HG.wav?rlkey=vtm96qgr6ay9rsbcqxjxytkxn&dl=0
+
+tests:
+  # === 18道题深度交错排序 (repeat 均设为 1) ===
+
+  - name: "Q1. 整体对比 - Clean (AM4 vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_CL
+      - Overall_0_AM4_CL
+    repeat: 1
+
+  - name: "Q2. 分层对比 - Preamp OD (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_Pre_Real_OD
+      - Layering_Pre_Digi_OD
+    repeat: 1
+
+  - name: "Q3. 整体对比 - HighGain (NAM vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_HG
+      - Overall_0_NAM_HG
+    repeat: 1
+
+  - name: "Q4. 分层对比 - Cabinet Clean (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_Cab_Real_CL
+      - Layering_Cab_Digi_CL
+    repeat: 1
+
+  - name: "Q5. 整体对比 - OverDrive (KPA vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_OD
+      - Overall_0_KPA_OD
+    repeat: 1
+
+  - name: "Q6. 分层对比 - Power+Load HG (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_P+L_Real_HG
+      - Layering_P+L_Digi_HG
+    repeat: 1
+
+  - name: "Q7. 整体对比 - Clean (NAM vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_CL
+      - Overall_0_NAM_CL
+    repeat: 1
+
+  - name: "Q8. 分层对比 - Preamp Clean (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_Pre_Real_CL
+      - Layering_Pre_Digi_CL
+    repeat: 1
+
+  - name: "Q9. 整体对比 - HighGain (KPA vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_HG
+      - Overall_0_KPA_HG
+    repeat: 1
+
+  - name: "Q10. 分层对比 - Cabinet OD (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_Cab_Real_OD
+      - Layering_Cab_Digi_OD
+    repeat: 1
+
+  - name: "Q11. 整体对比 - OverDrive (AM4 vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_OD
+      - Overall_0_AM4_OD
+    repeat: 1
+
+  - name: "Q12. 分层对比 - Power+Load Clean (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_P+L_Real_CL
+      - Layering_P+L_Digi_CL
+    repeat: 1
+
+  - name: "Q13. 整体对比 - Clean (KPA vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_CL
+      - Overall_0_KPA_CL
+    repeat: 1
+
+  - name: "Q14. 分层对比 - Preamp HG (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_Pre_Real_HG
+      - Layering_Pre_Digi_HG
+    repeat: 1
+
+  - name: "Q15. 整体对比 - HighGain (AM4 vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_HG
+      - Overall_0_AM4_HG
+    repeat: 1
+
+  - name: "Q16. 分层对比 - Cabinet HG (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_Cab_Real_HG
+      - Layering_Cab_Digi_HG
+    repeat: 1
+
+  - name: "Q17. 整体对比 - OverDrive (NAM vs Real)"
+    testType: ABX
+    options:
+      - Overall_0_RealAmp_OD
+      - Overall_0_NAM_OD
+    repeat: 1
+
+  - name: "Q18. 分层对比 - Power+Load OD (Digi vs Real)"
+    testType: ABX
+    options:
+      - Layering_P+L_Real_OD
+      - Layering_P+L_Digi_OD
+    repeat: 1
