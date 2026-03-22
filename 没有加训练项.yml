@@ -21,67 +21,74 @@ welcome:
 options:
   # === 整体对比 (Overall) ===
   - name: Overall_0_RealAmp_CL
-    audioUrl: https://www.dropbox.com/scl/fi/zaxn2s5sv61lwo38oevij/Overall_0_RealAmp_CL.wav?rlkey=8br1i5yilnsxkn9cdlt0qximo&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/vdeuv417jq7u75t3yu6t6/Overall_0_RealAmp_CL.wav?rlkey=sgx3dup1c6w3ryigy5zvxnigi&dl=0
   - name: Overall_0_AM4_CL
-    audioUrl: https://www.dropbox.com/scl/fi/ln8algr6igltosr9tfsei/Overall_0_AM4_CL.wav?rlkey=fpa37t12qqalr4ufxv1u5dnow&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/axpkfbc4eqnfcbecoi9wo/Overall_0_AM4_CL.wav?rlkey=ytsccxycn6oor2setcdf6p7lt&dl=0
   - name: Overall_0_KPA_CL
-    audioUrl: https://www.dropbox.com/scl/fi/58rimu3995odm251p30oi/Overall_0_KPA_CL.wav?rlkey=oaov1pzc5csbfopt2clrbd9f1&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/ubsfwen37j9j413agk6ea/Overall_0_KPA_CL.wav?rlkey=jhe32mfbdfc3l1s967dpz8wvf&dl=0
   - name: Overall_0_NAM_CL
-    audioUrl: https://www.dropbox.com/scl/fi/s8ofcnwjfjqxi8vfqg8ro/Overall_0_NAM_CL.wav?rlkey=owyn8qd3a9do3pxngfj5vz8y0&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/bror0bk21p2aiawfz40ud/Overall_0_NAM_CL.wav?rlkey=e87go0p3wfvobunlm2ugfw3go&dl=0
+  
   - name: Overall_0_RealAmp_OD
-    audioUrl: https://www.dropbox.com/scl/fi/vuq4q8ihx5dxhxq1i1rm6/Overall_0_RealAmp_OD.wav?rlkey=45ynwypn9vwapyf7b102xua7u&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/f11qkrkdlhjp2869az297/Overall_0_RealAmp_OD.wav?rlkey=k5sjh9jbtg1rizkrdws6jot9t&dl=0
   - name: Overall_0_AM4_OD
-    audioUrl: https://www.dropbox.com/scl/fi/ynkvhkvsyuyyyirfvr0pi/Overall_0_AM4_OD.wav?rlkey=ofrchviicf33s39jwoi2ba0n8&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/vgflfa33bvzadfibrdmo9/Overall_0_AM4_OD.wav?rlkey=6wtzy227zzndsmkzce8ilsokq&dl=0
   - name: Overall_0_KPA_OD
-    audioUrl: https://www.dropbox.com/scl/fi/gf8pdkf7o3mkvmx45g0mk/Overall_0_KPA_OD.wav?rlkey=ha2gtvvwrzo4ophmkk0d3i5d1&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/i0oun6y2pcp9o1h18f1en/Overall_0_KPA_OD.wav?rlkey=rtp1larxow8rox18pkg0zfgay&dl=0
   - name: Overall_0_NAM_OD
-    audioUrl: https://www.dropbox.com/scl/fi/uue3kipyfxgsdc1r7fojv/Overall_0_NAM_OD.wav?rlkey=8tq623p5daoypz6nnhuh2wkep&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/6iqjw32wbw83ajhfouvk4/Overall_0_NAM_OD.wav?rlkey=v04sgqxod4cdfpir97a9xjjil&dl=0
+
   - name: Overall_0_RealAmp_HG
-    audioUrl: https://www.dropbox.com/scl/fi/w6qafv40iqex620c1wtdd/Overall_0_RealAmp_HG.wav?rlkey=wh7s6we42v9y8k53r7o54l6yz&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/8ounc2f4lbzl0rzx8r6xs/Overall_0_RealAmp_HG.wav?rlkey=4208r9udhm43bklluo5xsrehq&dl=0
   - name: Overall_0_AM4_HG
-    audioUrl: https://www.dropbox.com/scl/fi/bk6uk2eks1fjg63vltt2v/Overall_0_AM4_HG.wav?rlkey=ltia7kvs7leaege8da0rtms9o&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/m9366m1zvp2wiixzwamnk/Overall_0_AM4_HG.wav?rlkey=45c5ormlz7y2o6ba5qzcszt0v&dl=0
   - name: Overall_0_KPA_HG
-    audioUrl: https://www.dropbox.com/scl/fi/jqy5t11yh0m5kgwpafmmz/Overall_0_KPA_HG.wav?rlkey=cdqw3i7j44bbm2p10bylfoyw3&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/f5kzmyocpl07cjtmpumrd/Overall_0_KPA_HG.wav?rlkey=ej68ppdse1e2s1vl88an3fzmm&dl=0
   - name: Overall_0_NAM_HG
-    audioUrl: https://www.dropbox.com/scl/fi/54vjhba7axsrqsvzee93o/Overall_0_NAM_HG.wav?rlkey=s0ykeofqs8uqi1k0huy142bjq&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/ysx4ziqkq2my4cdldqwr0/Overall_0_NAM_HG.wav?rlkey=rzfbyh052pap4rummi8fvy9o6&dl=0
 
   # === 分层对比 (Layering) ===
+  # Preamp
   - name: Layering_Pre_Real_CL
-    audioUrl: https://www.dropbox.com/scl/fi/wswl4vaqu9c7mb4lc0vxb/Layering_Pre_Real_CL.wav?rlkey=3w8nxfqzkuwntpwqq9n6w8i7k&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/iwlkxyupmpfl0e0x7vivk/Layering_Pre_Real_CL.wav?rlkey=2ufuuftdhcn0qjm7b5pig2xmv&dl=0
   - name: Layering_Pre_Digi_CL
-    audioUrl: https://www.dropbox.com/scl/fi/cklgctmperwpvizsn1om7/Layering_Pre_Digi_CL.wav?rlkey=0n9cp4g6sutcfhmcpo5mtckj2&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/p24d7aw0gae40ckl2rez0/Layering_Pre_Digi_CL.wav?rlkey=vggxbxvxyxyfi2ilwnitp78si&dl=0
   - name: Layering_Pre_Real_OD
-    audioUrl: https://www.dropbox.com/scl/fi/bcd7s5a5cwkphh8kdwzih/Layering_Pre_Real_OD.wav?rlkey=fgl5sh4tpb1srp4a4872gt7av&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/j3jw2bs8yj3q4xvkz8luu/Layering_Pre_Real_OD.wav?rlkey=5el4dafve4l2864w6wqdtzj1s&dl=0
   - name: Layering_Pre_Digi_OD
-    audioUrl: https://www.dropbox.com/scl/fi/i8w5975u9fnyd8uo0vck3/Layering_Pre_Digi_OD.wav?rlkey=9a3p1van6ac4f6lvm9kella89&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/uhqnzkcimoxx3nzdoys53/Layering_Pre_Digi_OD.wav?rlkey=5kldywzo6xlmdoeg2sybrl8sy&dl=0
   - name: Layering_Pre_Real_HG
-    audioUrl: https://www.dropbox.com/scl/fi/n1qaek5w5kc7gltyddcsj/Layering_Pre_Real_HG.wav?rlkey=uv1487pubt9yhz8w6gfijwrpp&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/g8qq101id8vesalzqod2u/Layering_Pre_Real_HG.wav?rlkey=wz0vxb6offso67gtwrsquz2ou&dl=0
   - name: Layering_Pre_Digi_HG
-    audioUrl: https://www.dropbox.com/scl/fi/u6dnkcfkajllpu7hk2xnf/Layering_Pre_Digi_HG.wav?rlkey=tydtghjdfyvhynzpe869sbkw3&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/c1obklryq1wmmcufkqj81/Layering_Pre_Digi_HG.wav?rlkey=al7vb4b13ufbpuowh1iv8d72v&dl=0
+
+  # Poweramp + Load
   - name: Layering_P+L_Real_CL
-    audioUrl: https://www.dropbox.com/scl/fi/s0okb162zc1du9jgdu09n/Layering_P-L_Real_CL.wav?rlkey=fhwvq8lnst22jsi1gxlokqtp1&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/es4zc339g19w51gks2d3b/Layering_P-L_Real_CL.wav?rlkey=omhsc8l3rj9azezkpvrzp641u&dl=0
   - name: Layering_P+L_Digi_CL
-    audioUrl: https://www.dropbox.com/scl/fi/dnae2i65en8m64uxyrfav/Layering_P-L_Digi_CL.wav?rlkey=gn5hp9kyw6s6osb2h0sj3z35l&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/nw30i29sztdq1jzrueqte/Layering_P-L_Digi_CL.wav?rlkey=vol3van7mhg1d1e9hamkpzg3g&dl=0
   - name: Layering_P+L_Real_OD
-    audioUrl: https://www.dropbox.com/scl/fi/5tc9zp8eu9lhq3o0s3juy/Layering_P-L_Real_OD.wav?rlkey=vbu4qfb1vcfubwntbsju9kxx0&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/nwdkcwvesk640rbwtnnip/Layering_P-L_Real_OD.wav?rlkey=d915tbq347d9cvm597rpf335o&dl=0
   - name: Layering_P+L_Digi_OD
-    audioUrl: https://www.dropbox.com/scl/fi/ci1h9eivq0hmztoppq4v1/Layering_P-L_Digi_OD.wav?rlkey=hurzdyincs2nrr66ho7gultgj&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/een3zy6tjjj15o3nhtmwu/Layering_P-L_Digi_OD.wav?rlkey=vyltlzqnbcw5alz711bmf9mc4&dl=0
   - name: Layering_P+L_Real_HG
-    audioUrl: https://www.dropbox.com/scl/fi/vnru9lxzqeuqsrdejhl7m/Layering_P-L_Real_HG.wav?rlkey=5s45twhp0vpbsepu76zdoy064&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/8wq4fw5ko4adhn11b0xuj/Layering_P-L_Real_HG.wav?rlkey=bcxd1jfrzn280f6jj71g677l8&dl=0
   - name: Layering_P+L_Digi_HG
-    audioUrl: https://www.dropbox.com/scl/fi/ymkp7ogk1s7ha0sr1fye2/Layering_P-L_Digi_HG.wav?rlkey=x6lq5wen2mgyb9t4vbzm8cp1n&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/87jjv7por32pwzuo3gzs8/Layering_P-L_Digi_HG.wav?rlkey=nu8g4s0jhpizwdapds808igu3&dl=0
+
+  # Cabinet
   - name: Layering_Cab_Real_CL
-    audioUrl: https://www.dropbox.com/scl/fi/tp28n2a8dqh9ltvh7rgl2/Layering_Cab_Real_CL.wav?rlkey=80sfruvm1eo80ygiemfsrxx70&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/01wlcm6rkws65wczw5pnq/Layering_Cab_Real_CL.wav?rlkey=y2u066pylvuu5r4uqraf014dd&dl=0
   - name: Layering_Cab_Digi_CL
-    audioUrl: https://www.dropbox.com/scl/fi/qwrzjrtvjqrhmo8y411vt/Layering_Cab_Digi_CL.wav?rlkey=utaf9ml5pmneypxo3jq94ga4m&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/9jx0w05htwa0izbi3vus7/Layering_Cab_Digi_CL.wav?rlkey=bed1q7f5hzb5qkr9x2njinoej&dl=0
   - name: Layering_Cab_Real_OD
-    audioUrl: https://www.dropbox.com/scl/fi/19oywqdwm9q1sazp3j5c2/Layering_Cab_Real_OD.wav?rlkey=ltzlxmxgufr3cati670sgeti2&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/xrp5totru0nwwf77lzrxf/Layering_Cab_Real_OD.wav?rlkey=0lxuu76cn7ypu4jf96z0qbswr&dl=0
   - name: Layering_Cab_Digi_OD
-    audioUrl: https://www.dropbox.com/scl/fi/8926fcaeiwile8f6haxhu/Layering_Cab_Digi_OD.wav?rlkey=cci21ls86i4wwzny7iey2m7la&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/hiifgq4r7my7ibolyq0ov/Layering_Cab_Digi_OD.wav?rlkey=gx61v89xs8nrb9g8w4xkyzum9&dl=0
   - name: Layering_Cab_Real_HG
-    audioUrl: https://www.dropbox.com/scl/fi/jys4167ukni6yeghp1ifa/Layering_Cab_Real_HG.wav?rlkey=qad3m60oxngnr4eucufx6eu3z&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/alyw4nbrq9jepgvmk1sky/Layering_Cab_Real_HG.wav?rlkey=mmgaccz3wpn6bqtjp0n9ltq0k&dl=0
   - name: Layering_Cab_Digi_HG
-    audioUrl: https://www.dropbox.com/scl/fi/0pc82bloappfw8ll8hdm2/Layering_Cab_Digi_HG.wav?rlkey=vtm96qgr6ay9rsbcqxjxytkxn&dl=0
+    audioUrl: https://www.dropbox.com/scl/fi/4trokk23dzjezmc4rp24x/Layering_Cab_Digi_HG.wav?rlkey=4yri3ckhpdekcqd3q5mwu15xf&dl=0
 
 tests:
   # === 18道题深度交错排序 (repeat 均设为 1) ===
