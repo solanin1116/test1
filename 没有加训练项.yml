@@ -17,6 +17,11 @@ welcome:
       options:
         - 是
         - 否
+    - name: 您是否从事音乐/音频相关工作
+      inputType: select
+      options:
+        - 是
+        - 否
 
 options:
   # === 整体对比 (Overall) ===
@@ -93,126 +98,126 @@ options:
 tests:
   # === 18道题深度交错排序 (repeat 均设为 1) ===
 
-  - name: "Q1. 整体对比 - Clean (AM4 vs Real)"
+  - name: "Q1"
     testType: ABX
     options:
       - Overall_0_RealAmp_CL
       - Overall_0_AM4_CL
     repeat: 1
 
-  - name: "Q2. 分层对比 - Preamp OD (Digi vs Real)"
+  - name: "Q2"
     testType: ABX
     options:
       - Layering_Pre_Real_OD
       - Layering_Pre_Digi_OD
     repeat: 1
 
-  - name: "Q3. 整体对比 - HighGain (NAM vs Real)"
+  - name: "Q3"
     testType: ABX
     options:
       - Overall_0_RealAmp_HG
       - Overall_0_NAM_HG
     repeat: 1
 
-  - name: "Q4. 分层对比 - Cabinet Clean (Digi vs Real)"
+  - name: "Q4"
     testType: ABX
     options:
       - Layering_Cab_Real_CL
       - Layering_Cab_Digi_CL
     repeat: 1
 
-  - name: "Q5. 整体对比 - OverDrive (KPA vs Real)"
+  - name: "Q5"
     testType: ABX
     options:
       - Overall_0_RealAmp_OD
       - Overall_0_KPA_OD
     repeat: 1
 
-  - name: "Q6. 分层对比 - Power+Load HG (Digi vs Real)"
+  - name: "Q6"
     testType: ABX
     options:
       - Layering_P+L_Real_HG
       - Layering_P+L_Digi_HG
     repeat: 1
 
-  - name: "Q7. 整体对比 - Clean (NAM vs Real)"
+  - name: "Q7"
     testType: ABX
     options:
       - Overall_0_RealAmp_CL
       - Overall_0_NAM_CL
     repeat: 1
 
-  - name: "Q8. 分层对比 - Preamp Clean (Digi vs Real)"
+  - name: "Q8"
     testType: ABX
     options:
       - Layering_Pre_Real_CL
       - Layering_Pre_Digi_CL
     repeat: 1
 
-  - name: "Q9. 整体对比 - HighGain (KPA vs Real)"
+  - name: "Q9"
     testType: ABX
     options:
       - Overall_0_RealAmp_HG
       - Overall_0_KPA_HG
     repeat: 1
 
-  - name: "Q10. 分层对比 - Cabinet OD (Digi vs Real)"
+  - name: "Q10"
     testType: ABX
     options:
       - Layering_Cab_Real_OD
       - Layering_Cab_Digi_OD
     repeat: 1
 
-  - name: "Q11. 整体对比 - OverDrive (AM4 vs Real)"
+  - name: "Q11"
     testType: ABX
     options:
       - Overall_0_RealAmp_OD
       - Overall_0_AM4_OD
     repeat: 1
 
-  - name: "Q12. 分层对比 - Power+Load Clean (Digi vs Real)"
+  - name: "Q12"
     testType: ABX
     options:
       - Layering_P+L_Real_CL
       - Layering_P+L_Digi_CL
     repeat: 1
 
-  - name: "Q13. 整体对比 - Clean (KPA vs Real)"
+  - name: "Q13"
     testType: ABX
     options:
       - Overall_0_RealAmp_CL
       - Overall_0_KPA_CL
     repeat: 1
 
-  - name: "Q14. 分层对比 - Preamp HG (Digi vs Real)"
+  - name: "Q14"
     testType: ABX
     options:
       - Layering_Pre_Real_HG
       - Layering_Pre_Digi_HG
     repeat: 1
 
-  - name: "Q15. 整体对比 - HighGain (AM4 vs Real)"
+  - name: "Q15"
     testType: ABX
     options:
       - Overall_0_RealAmp_HG
       - Overall_0_AM4_HG
     repeat: 1
 
-  - name: "Q16. 分层对比 - Cabinet HG (Digi vs Real)"
+  - name: "Q16"
     testType: ABX
     options:
       - Layering_Cab_Real_HG
       - Layering_Cab_Digi_HG
     repeat: 1
 
-  - name: "Q17. 整体对比 - OverDrive (NAM vs Real)"
+  - name: "Q17"
     testType: ABX
     options:
       - Overall_0_RealAmp_OD
       - Overall_0_NAM_OD
     repeat: 1
 
-  - name: "Q18. 分层对比 - Power+Load OD (Digi vs Real)"
+  - name: "Q18"
     testType: ABX
     options:
       - Layering_P+L_Real_OD
