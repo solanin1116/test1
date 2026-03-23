@@ -1,4 +1,4 @@
-name: "吉他音箱真实模拟与数字建模对比 ABX 测试"
+name: "真实吉他放大器与数字建模吉他放大器对比 ABX 测试"
 welcome:
   description: |
     # 🎧 听音测试说明 (ABX 盲听)
